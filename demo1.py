@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
         print(sess.run([hy], feed_dict={X: inputX, Y: inputY}))
         print("Accuracy: ", accuracy.eval({X: inputX, Y: inputY}) * 100, "%")
-        print("final Coast = ", training)_coast
+        print("final Coast = ", training_cost)
         print("Parameters  :", "\n learning rate  = ", learning_rate, "\n epoches = ", training_epochs,
               " \n hidden layers  = ", n_hidden, "\n coast function \n optimazer gradient decent ")
 
