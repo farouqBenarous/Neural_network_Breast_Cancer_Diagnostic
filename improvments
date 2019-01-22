@@ -1,0 +1,64 @@
+first case
+   learning rate  = 0.001
+    traing steps = 100000
+    hidden layers  =7	
+    coast function
+    optimazer gradient decen
+
+  accuracy  =   84 per 100
+
+
+
+
+second case
+   learning rate  = 0.001
+    traing steps = 100 000
+    hidden layers  =	4
+    coast function
+    optimazer gradient decent
+
+  accuracy  =  86 per 100
+
+
+third case
+    learning rate  = 0.001
+    traing steps = 100 000
+    hidden layers  =	4
+    coast function
+    optimazer AdagradOptimizer
+
+  accuracy  =  62 per 100
+
+
+forth case
+    learning rate  = 0.001
+    traing steps = 100 000
+    hidden layers  =	4
+    coast function
+    optimazer AdamOptimizer
+
+  accuracy  =  93.4 per 100
+
+
+fith case
+    learning rate  = 0.001
+    traing steps = 100 000
+    hidden layers  =	4
+    coast function
+    optimazer FtrlOptimizer
+
+  accuracy  =  62 per 100
+
+sixth case
+    learning rate  = 0.001
+    traing steps = 100 000
+    hidden layers  =	4
+    coast function
+    optimazer RMSPropOptimizer
+
+  accuracy  =  93 per 100
+
+
+
+
+

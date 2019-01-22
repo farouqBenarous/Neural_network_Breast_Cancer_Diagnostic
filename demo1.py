@@ -83,7 +83,7 @@ if __name__ == "__main__":
               "Finished!------------------------------------------\n")
 
         training_cost = sess.run(cost, feed_dict={X: inputX, Y: inputY})
-        print("Training cost=",training_cost,
+        print("Training cost=", training_cost,
               "\n W1 = \n", sess.run(W1), "\n W2= \n", sess.run(W2),
               "\n b1=", sess.run(b1), '\n', "\n b2=", sess.run(b2), '\n')
 
@@ -95,6 +95,5 @@ if __name__ == "__main__":
         print("final Coast = ", training_cost)
         print("Parameters  :", "\n learning rate  = ", learning_rate, "\n epoches = ", training_epochs,
               " \n hidden layers  = ", n_hidden, "\n coast function \n optimazer gradient decent ")
-
 
         sess.close()
