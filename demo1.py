@@ -38,6 +38,7 @@ if __name__ == "__main__":
     display_step = 10000  # to split the display
     n_samples = inputY.size  # number of the instances
 
+
     X = tf.placeholder(tf.float32)
     Y = tf.placeholder(tf.float32)
 
@@ -54,7 +55,6 @@ if __name__ == "__main__":
     hy = tf.nn.sigmoid(tf.matmul(L2, W2) + b2)
 
     # calculate the coast of our calculations and then optimaze it
-
     cost = tf.reduce_mean(-Y * tf.log(hy) - (1 - Y) * tf.log(1 - hy))
     optimizer = tf.train.RMSPropOptimizer(learning_rate).minimize(cost)
 
