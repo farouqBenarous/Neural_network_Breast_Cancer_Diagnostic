@@ -3,6 +3,7 @@ import tensorflow as tf  # Fire from the gods
 
 if __name__ == "__main__":
 
+    # for the winwods users you should change this path
     LOGDIR = "/tmp/mnist_tutorial/"
 
     # Let's have Pandas load our dataset as a dataframe
