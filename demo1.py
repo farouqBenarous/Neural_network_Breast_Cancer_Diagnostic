@@ -66,8 +66,8 @@ if __name__ == "__main__":
         tf.summary.histogram("Output", hy)
 
     # calculate the coast of our calculations and then optimaze it
-    cost = tf.reduce_mean(-Y * tf.log(hy) - (1 - Y) * tf.log(1 - hy))
     with tf.name_scope("Coast"):
+        cost = tf.reduce_mean(-Y * tf.log(hy) - (1 - Y) * tf.log(1 - hy))
         tf.summary.histogram("Cost ", cost)
 
     with tf.name_scope("Train"):
