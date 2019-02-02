@@ -13,12 +13,12 @@ number of hidden layers : 4 in the best cases
 
 number of output : 1 because its an binary clasification (Malignant begningn)
 
-#####how  the prediction works ?
+##### how  the prediction works ?
 So first to to train my model I have too a dataset bunch of examples of Cells whather its benign of malignant and then 
 train my model with it after I finished the training you get the Best optimal  parameters  to make the predictions 
 
-##Here are some helpful links:
-######Dataset details to understand how it had been collected 
+## Here are some helpful links:
+###### Dataset details to understand how it had been collected 
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
  
 
